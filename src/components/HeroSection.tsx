@@ -40,22 +40,28 @@ const HeroSection = () => (
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-          <Link to="/contact">
-            <Button size="lg" className="font-heading uppercase tracking-wider text-base px-8">
-              Request a Quote
-              <ArrowRight className="w-5 h-5 ml-2" />
-        <Button
-  size="lg"
-  variant="outline"
-  className="font-heading uppercase tracking-wider text-base px-8 bg-white text-black border-white hover:bg-gray-100"
->
-  Become a Partner
-</Button>
-          </Link>
-        </div>
-      </div>
-    </div>
-  </section>
-);
+  
+  <Link to="/contact">
+    <Button size="lg" className="font-heading uppercase tracking-wider text-base px-8">
+      Request a Quote
+      <ArrowRight className="w-5 h-5 ml-2" />
+    </Button>
+  </Link>
+
+  <Link to="/contact">
+    <Button
+      size="lg"
+      variant="outline"
+      className="font-heading uppercase tracking-wider text-base px-8 bg-white text-black border-white hover:bg-gray-100"
+    >
+      Become a Partner
+    </Button>
+  </Link>
+
+</div>
+      
+</div>
+</section>
+
 
 export default HeroSection;
