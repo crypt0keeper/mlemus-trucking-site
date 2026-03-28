@@ -32,7 +32,7 @@ const HeroSection = () => (
         </h1>
 
         <p className="text-lg sm:text-xl text-metallic-light max-w-xl mb-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-          Specializing in port drayage, produce logistics, and cold chain transportation from Oxnard and Port Hueneme.
+          Specializing in port drayage, produce logistics, and cold chain transportation across California.
         </p>
 
         <p className="text-sm text-metallic font-medium uppercase tracking-wider mb-8 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
@@ -44,16 +44,13 @@ const HeroSection = () => (
             <Button size="lg" className="font-heading uppercase tracking-wider text-base px-8">
               Request a Quote
               <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
-          </Link>
-          <Link to="/contact">
-            <Button
-              size="lg"
-              variant="outline"
-              className="font-heading uppercase tracking-wider text-base px-8 border-metallic text-primary-foreground hover:bg-primary-foreground/10"
-            >
-              Become a Partner
-            </Button>
+        <Button
+  size="lg"
+  variant="outline"
+  className="font-heading uppercase tracking-wider text-base px-8 bg-white text-black border-white hover:bg-gray-100"
+>
+  Become a Partner
+</Button>
           </Link>
         </div>
       </div>
