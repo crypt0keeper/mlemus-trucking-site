@@ -20,8 +20,8 @@ const Navbar = () => {
       <div className="container-max flex items-center justify-between h-16 sm:h-20 px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
           <span className="font-heading text-xl sm:text-2xl font-bold text-primary-foreground tracking-wider uppercase">
-            M Lemus <span className="text-primary">Trucking</span>
-          </span>
+  M Lemus <span className="text-primary">Trucking Inc</span>
+</span>
         </Link>
 
         {/* Desktop */}
