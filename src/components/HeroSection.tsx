@@ -39,8 +39,7 @@ const HeroSection = () => (
           MC# 774696 · USDOT# 2267752 · SCAC: MLFE
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-  
+  <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
   <Link to="/contact">
     <Button size="lg" className="font-heading uppercase tracking-wider text-base px-8">
       Request a Quote
@@ -58,10 +57,10 @@ const HeroSection = () => (
     </Button>
   </Link>
 
-</div>
       
 </div>
+</div>
 </section>
-
+);
 
 export default HeroSection;
