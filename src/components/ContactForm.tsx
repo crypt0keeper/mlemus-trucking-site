@@ -8,11 +8,8 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 const ContactPage = () => {
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    if (params.get("success") === "true") {
+    if (window.location.hash === "#sent") {
       toast.success("Message sent! We'll get back to you shortly.");
-
-      // clean URL after showing message
       window.history.replaceState({}, document.title, "/contact");
     }
   }, []);
