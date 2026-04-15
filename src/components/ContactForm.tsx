@@ -32,10 +32,11 @@ const ContactForm = () => {
         value="M Lemus Trucking Website"
       />
 
+      {/* ✅ THIS IS IMPORTANT FOR SUCCESS MESSAGE */}
       <input
         type="hidden"
         name="redirect"
-        value="https://mlemustrucking.com/contact"
+        value="https://mlemustrucking.com/contact?success=true"
       />
 
       <div className="grid sm:grid-cols-2 gap-5">
