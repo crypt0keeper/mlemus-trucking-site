@@ -5,7 +5,7 @@ const companies: { name: string; logo?: string }[] = [
   { name: "Mission Produce", logo: "/logos/mission-produce.png" },
   { name: "Dole", logo: "/logos/dole.png" },
   { name: "Chiquita", logo: "/logos/chiquita.png" },
-  { name: "Del Monte", logo: "/logos/del-monte.png" },
+  // { name: "Del Monte", logo: "/logos/del-monte.png" }, // hidden for now
   { name: "Lineage", logo: "/logos/lineage.png" },
   { name: "C.H. Robinson", logo: "/logos/ch-robinson.png" },
 ];
