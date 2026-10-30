@@ -29,7 +29,7 @@ const AboutPreview = () => (
               </li>
             ))}
           </ul>
-          <Link to="/about">
+          <Link to="/about#family">
             <Button variant="outline" className="font-heading uppercase tracking-wider">
               Learn More <ArrowRight className="w-4 h-4 ml-2" />
             </Button>

@@ -14,7 +14,7 @@ const team = [
 ];
 
 const TeamSection = () => (
-  <section className="section-padding bg-secondary">
+  <section id="family" className="section-padding bg-secondary scroll-mt-24 lg:scroll-mt-28">
     <div className="container-max">
       <div className="text-center mb-12">
         <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">Our Family</p>
