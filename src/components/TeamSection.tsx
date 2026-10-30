@@ -2,15 +2,15 @@
 const team = [
   {
     name: "DAD'S NAME",
-    title: "Founder & Owner",
+    title: "Owner",
     photo: "/team/father.jpg",
-    bio: "Started M Lemus Trucking in 2003 and has spent more than 20 years hauling produce and containers across California. He built the company on showing up on time, taking care of the freight, and treating customers and drivers right.",
+    bio: "Before he ever drove a truck, he spent decades in the fields harvesting fruits and vegetables, so he knows produce long before it's loaded. He has more than 20 years of experience hauling produce and containers, and he's a familiar face at the Port of Hueneme. His experience, work ethic, and name are what M Lemus Trucking is built on.",
   },
   {
     name: "Fabian Lemus",
-    title: "Co-Owner & Operations",
+    title: "Co-Owner",
     photo: "/team/fabian.jpg",
-    bio: "Grew up around the trucks and now runs day-to-day operations — dispatch, customer communication, and new business. He works directly with shippers and brokers so every load is planned, tracked, and delivered without surprises.",
+    bio: "Fabian earned his business degree from CSU Channel Islands and brings a background in financial management and contract oversight to the family business. He handles dispatch, customer communication, technology, and new business, and is building the systems that keep every load organized from booking to billing. His father has always been his biggest mentor.",
   },
 ];
 
