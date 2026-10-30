@@ -1,10 +1,9 @@
-// DRAFT bios — confirm names, titles and bios with Fabian before publishing.
 const team = [
   {
-    name: "DAD'S NAME",
+    name: "Martin Lemus",
     title: "Owner",
     photo: "/team/father.jpg",
-    bio: "Before he ever drove a truck, he spent decades in the fields harvesting fruits and vegetables, so he knows produce long before it's loaded. He has more than 20 years of experience hauling produce and containers, and he's a familiar face at the Port of Hueneme. His experience, work ethic, and name are what M Lemus Trucking is built on.",
+    bio: "Before Martin ever drove a truck, he spent decades in the fields harvesting fruits and vegetables, so he knows produce long before it's loaded. He has more than 20 years of experience hauling produce and containers, and he's a familiar face at the Port of Hueneme. His experience, work ethic, and name are what M Lemus Trucking is built on.",
   },
   {
     name: "Fabian Lemus",
