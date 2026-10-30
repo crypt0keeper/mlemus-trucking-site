@@ -24,7 +24,7 @@ const Item = ({ name, logo }: { name: string; logo?: string }) => (
 const LogoCarousel = () => (
   <section className="py-12 sm:py-16 bg-background border-y border-border" aria-label="Companies we work with">
     <p className="text-center text-sm font-medium uppercase tracking-widest text-primary mb-8 px-4">
-      Trusted by growers, shippers &amp; cold storage across California
+      Shippers we've hauled for
     </p>
     <div className="relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
       <div className="flex w-max animate-marquee motion-reduce:animate-none hover:[animation-play-state:paused]">
