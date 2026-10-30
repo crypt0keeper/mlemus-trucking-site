@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTABanner from "@/components/CTABanner";
 import TeamSection from "@/components/TeamSection";
-import { CheckCircle } from "lucide-react";
 import reeferImg from "@/assets/reefer-loading.jpg";
 
 const AboutPage = () => (
@@ -37,19 +36,6 @@ const AboutPage = () => (
                 Whether it's a reefer load of fresh produce or a container pull from the port, we treat every shipment like our reputation depends on it — because it does.
               </p>
             </div>
-            <ul className="mt-8 space-y-3">
-              {[
-                "TWIC Certified — Port Access Ready",
-                "Over 20 years in California trucking",
-                "California-focused operations for faster transit",
-                "Available for dedicated lane partnerships",
-              ].map((item) => (
-                <li key={item} className="flex items-center gap-3">
-                  <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="font-medium text-foreground">{item}</span>
-                </li>
-              ))}
-            </ul>
           </div>
           <div className="rounded-lg overflow-hidden">
             <img src={reeferImg} alt="Refrigerated trailer being loaded with produce" loading="lazy" width={1280} height={720} className="w-full h-full object-cover" />
