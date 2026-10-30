@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import LinkedInIcon, { LINKEDIN_URL } from "@/components/LinkedInIcon";
 
 const Footer = () => (
   <footer className="bg-secondary border-t border-foreground/10">
@@ -13,6 +14,16 @@ const Footer = () => (
           <p className="text-sm text-metallic leading-relaxed">
             Family-owned California carrier specializing in refrigerated freight, container drayage, and produce logistics.
           </p>
+          <a
+            href={LINKEDIN_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="M Lemus Trucking on LinkedIn"
+            className="mt-4 inline-flex items-center gap-2 rounded-md bg-[#0A66C2] px-3 py-2 text-sm font-medium text-white hover:bg-[#004182] transition-colors"
+          >
+            <LinkedInIcon className="w-4 h-4" />
+            Follow us on LinkedIn
+          </a>
         </div>
 
         {/* Links */}
@@ -43,6 +54,10 @@ const Footer = () => (
             <li className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-primary" />
               <a href="mailto:contracts@mlemustrucking.com" className="hover:text-primary transition-colors">contracts@mlemustrucking.com</a>
+            </li>
+            <li className="flex items-center gap-2">
+              <LinkedInIcon className="w-4 h-4 text-primary" />
+              <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
             </li>
             <li className="flex items-start gap-2">
               <MapPin className="w-4 h-4 text-primary mt-0.5" />

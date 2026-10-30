@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import { Phone, Mail, MapPin } from "lucide-react";
+import LinkedInIcon, { LINKEDIN_URL } from "@/components/LinkedInIcon";
 
 const ContactPage = () => (
   <>
@@ -46,6 +47,15 @@ const ContactPage = () => (
                   <div>
                     <p className="text-xs text-muted-foreground uppercase tracking-wider">Email</p>
                     <a href="mailto:contracts@mlemustrucking.com" className="text-foreground font-medium hover:text-primary transition-colors">contracts@mlemustrucking.com</a>
+                  </div>
+                </li>
+                <li className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-lg bg-[#0A66C2] flex items-center justify-center flex-shrink-0">
+                    <LinkedInIcon className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-muted-foreground uppercase tracking-wider">LinkedIn</p>
+                    <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="text-foreground font-medium hover:text-primary transition-colors">M Lemus Trucking Inc.</a>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
