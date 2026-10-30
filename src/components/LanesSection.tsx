@@ -3,7 +3,7 @@ import { MapPin, Snowflake, Container, Route } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const regions = [
-  { name: "Oxnard & Port Hueneme", note: "Home base · container drayage · produce pickups" },
+  { name: "Port Hueneme & Oxnard", note: "Home base · container drayage · produce pickups" },
   { name: "Central Valley", note: "Tulare, Delano, Earlimart & cold storage hubs" },
   { name: "Inland Empire", note: "Mira Loma, San Bernardino, Corona & DCs" },
   { name: "Los Angeles & Orange County", note: "Warehouses, cold storage & distribution" },

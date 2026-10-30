@@ -54,7 +54,7 @@ const ContactPage = () => (
                   </div>
                   <div>
                     <p className="text-xs text-muted-foreground uppercase tracking-wider">Location</p>
-                    <p className="text-foreground font-medium">Oxnard / Port Hueneme, CA</p>
+                    <p className="text-foreground font-medium">Port Hueneme, CA</p>
                   </div>
                 </li>
               </ul>

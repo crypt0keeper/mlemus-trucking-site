@@ -16,7 +16,7 @@ const AboutPage = () => (
             Built on <span className="text-primary">Trust</span> &amp; Hard Work
           </h1>
           <p className="text-lg text-metallic-light max-w-2xl">
-            M Lemus Trucking Inc. is a family-owned and operated carrier headquartered in Oxnard, California — right at the doorstep of Port Hueneme and the heart of Ventura County's produce industry.
+            M Lemus Trucking Inc. is a family-owned and operated carrier headquartered in Port Hueneme, California — minutes from the Port of Hueneme and in the heart of Ventura County's produce industry.
           </p>
         </div>
       </section>

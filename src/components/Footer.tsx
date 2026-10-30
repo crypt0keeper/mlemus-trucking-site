@@ -46,7 +46,7 @@ const Footer = () => (
             </li>
             <li className="flex items-start gap-2">
               <MapPin className="w-4 h-4 text-primary mt-0.5" />
-              <span>Oxnard / Port Hueneme, CA</span>
+              <span>Port Hueneme, CA</span>
             </li>
           </ul>
         </div>
