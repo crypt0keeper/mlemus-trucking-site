@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTABanner from "@/components/CTABanner";
 import TeamSection from "@/components/TeamSection";
-import reeferImg from "@/assets/reefer-loading.jpg";
 
 const AboutPage = () => (
   <>
@@ -21,24 +20,13 @@ const AboutPage = () => (
         </div>
       </section>
 
-      <section className="section-padding bg-background">
-        <div className="container-max grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="font-heading text-2xl sm:text-3xl font-bold uppercase text-foreground mb-6">Our Story</h2>
-            <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                For over 20 years, M Lemus Trucking has provided honest, reliable freight service to growers, shippers, and brokers of every size. Along the way we've hauled for some of the biggest names in produce, including Mission Produce, Chiquita, Del Monte, Dole, and Lineage, both direct and through our broker partners.
-              </p>
-              <p>
-                We understand that in this industry, timing is everything. Our drivers are experienced, our equipment is maintained to the highest standards, and our communication is always responsive.
-              </p>
-              <p>
-                Whether it's a reefer load of fresh produce or a container pull from the port, we treat every shipment like our reputation depends on it — because it does.
-              </p>
-            </div>
-          </div>
-          <div className="rounded-lg overflow-hidden">
-            <img src={reeferImg} alt="Refrigerated trailer being loaded with produce" loading="lazy" width={1280} height={720} className="w-full h-full object-cover" />
+      <section className="bg-background px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
+        <div className="container-max">
+          <h2 className="font-heading text-2xl sm:text-3xl font-bold uppercase text-foreground mb-5">Our Story</h2>
+          <div className="grid md:grid-cols-3 gap-4 md:gap-8 text-muted-foreground leading-relaxed">
+            <p>For over 20 years, M Lemus Trucking has provided honest, reliable freight service to growers, shippers, and brokers of every size. Along the way we've hauled for some of the biggest names in produce, including Mission Produce, Chiquita, Del Monte, Dole, and Lineage, both direct and through our broker partners.</p>
+            <p>We understand that in this industry, timing is everything. Our drivers are experienced, our equipment is maintained to the highest standards, and our communication is always responsive.</p>
+            <p>Whether it's a reefer load of fresh produce or a container pull from the port, we treat every shipment like our reputation depends on it — because it does.</p>
           </div>
         </div>
       </section>
