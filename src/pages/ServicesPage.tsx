@@ -23,7 +23,7 @@ const servicesData = [
   {
     icon: Leaf,
     title: "Produce & Cold Chain Logistics",
-    desc: "With over 20 years hauling for companies like Mission Produce, Chiquita, Del Monte, and Dole, we understand the urgency of produce logistics. We keep your cold chain intact from harvest to delivery across California.",
+    desc: "With over 20 years in produce trucking, and customers that include Mission Produce, Chiquita, Del Monte, and Dole, we understand the urgency of produce logistics. We keep your cold chain intact from harvest to delivery across California.",
   },
 ];
 

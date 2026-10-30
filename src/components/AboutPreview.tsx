@@ -5,7 +5,7 @@ import { CheckCircle, ArrowRight } from "lucide-react";
 const highlights = [
   "Family-owned & operated",
   "Based in Oxnard, California",
-  "Over 20 years hauling for Mission Produce, Chiquita, Del Monte & Dole",
+  "Over 20 years serving growers, shippers & cold storage",
   "Dedicated lane partnerships available",
 ];
 

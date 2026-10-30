@@ -27,7 +27,7 @@ const reasons = [
   {
     icon: Handshake,
     title: "Trusted by Industry Leaders",
-    desc: "Companies like Mission Produce, Chiquita, Del Monte, and Dole have relied on us. That trust comes from over 20 years of consistent service.",
+    desc: "Over 20 years, we've earned the trust of shippers large and small, including Mission Produce, Chiquita, Del Monte, and Dole.",
   },
   {
     icon: Phone,

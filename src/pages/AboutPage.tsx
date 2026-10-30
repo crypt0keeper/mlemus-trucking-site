@@ -27,7 +27,7 @@ const AboutPage = () => (
             <h2 className="font-heading text-2xl sm:text-3xl font-bold uppercase text-foreground mb-6">Our Story</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                For over 20 years, M Lemus Trucking has provided honest, reliable freight service and built strong relationships with names like Mission Produce, Chiquita, Del Monte, Dole, and Lineage.
+                For over 20 years, M Lemus Trucking has provided honest, reliable freight service to growers, shippers, and brokers of every size. Today our customers include names like Mission Produce, Chiquita, Del Monte, Dole, and Lineage.
               </p>
               <p>
                 We understand that in this industry, timing is everything. Our drivers are experienced, our equipment is maintained to the highest standards, and our communication is always responsive.
