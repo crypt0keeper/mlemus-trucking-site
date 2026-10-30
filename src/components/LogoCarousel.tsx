@@ -2,17 +2,18 @@
 // To show a real logo: drop the file in public/logos/ and set `logo` (e.g. "/logos/mission-produce.png").
 // Without a logo file, the company name shows as text.
 const companies: { name: string; logo?: string }[] = [
-  { name: "Mission Produce" },
-  { name: "Chiquita" },
-  { name: "Del Monte" },
-  { name: "Dole" },
-  { name: "Lineage" },
+  { name: "Mission Produce", logo: "/logos/mission-produce.png" },
+  { name: "Dole", logo: "/logos/dole.png" },
+  { name: "Chiquita", logo: "/logos/chiquita.png" },
+  { name: "Del Monte", logo: "/logos/del-monte.png" },
+  { name: "Lineage", logo: "/logos/lineage.png" },
+  { name: "C.H. Robinson", logo: "/logos/ch-robinson.png" },
 ];
 
 const Item = ({ name, logo }: { name: string; logo?: string }) => (
-  <div className="flex items-center justify-center h-16 px-8 sm:px-12 flex-shrink-0">
+  <div className="flex items-center justify-center h-20 px-6 sm:px-10 flex-shrink-0">
     {logo ? (
-      <img src={logo} alt={name} loading="lazy" className="h-10 sm:h-12 w-auto object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition" />
+      <img src={logo} alt={name} loading="lazy" className="h-12 sm:h-16 w-auto max-w-[180px] object-contain" />
     ) : (
       <span className="font-heading text-xl sm:text-2xl font-semibold uppercase tracking-wider text-muted-foreground whitespace-nowrap">
         {name}
