@@ -9,7 +9,7 @@ const team = [
     name: "Fabian Lemus",
     title: "Co-Owner",
     photo: "/team/fabian.jpg",
-    bio: "Fabian earned his business degree from CSU Channel Islands and brings a background in financial management and contract oversight to the family business. He handles dispatch, customer communication, technology, and new business, and is building the systems that keep every load organized from booking to billing. His father has always been his biggest mentor.",
+    bio: "Fabian earned his business degree from CSU Channel Islands and works in financial management for the Department of Defense. He brings that experience in finance, contract oversight, and program analysis to the family business, handling dispatch, customer communication, technology, and new business, and building the systems that keep every load organized from booking to billing. His father has always been his biggest mentor.",
   },
 ];
 
