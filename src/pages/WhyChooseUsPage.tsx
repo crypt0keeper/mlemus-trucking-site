@@ -27,7 +27,7 @@ const reasons = [
   {
     icon: Handshake,
     title: "Trusted by Industry Leaders",
-    desc: "Companies like Taylor Farms, Chiquita, and Del Monte rely on us. That trust is earned through years of consistent, quality service.",
+    desc: "Companies like Mission Produce, Chiquita, Del Monte, and Dole have relied on us. That trust comes from over 20 years of consistent service.",
   },
   {
     icon: Phone,

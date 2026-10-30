@@ -6,7 +6,7 @@ const services = [
   {
     icon: Container,
     title: "Container Drayage",
-    desc: "Port of Hueneme, LA & Long Beach. TWIC-certified drivers for seamless port access and fast container turnaround.",
+    desc: "Port of Hueneme container moves with TWIC-certified drivers, plus past experience at the Ports of LA and Long Beach.",
   },
   {
     icon: Snowflake,
@@ -21,7 +21,7 @@ const services = [
   {
     icon: Leaf,
     title: "Produce & Cold Chain",
-    desc: "Experienced with major growers and distributors. Time-sensitive produce logistics across all of California.",
+    desc: "Over 20 years hauling for growers, shippers, and cold storage. Time-sensitive produce across California.",
   },
 ];
 
