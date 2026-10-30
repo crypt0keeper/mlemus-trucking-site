@@ -6,7 +6,7 @@ import TeamSection from "@/components/TeamSection";
 const AboutPage = () => (
   <>
     <Navbar />
-    <main className="pt-20">
+    <main className="pt-24 lg:pt-28">
       {/* Hero */}
       <section className="bg-secondary section-padding">
         <div className="container-max">

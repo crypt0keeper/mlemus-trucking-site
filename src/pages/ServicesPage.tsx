@@ -30,7 +30,7 @@ const servicesData = [
 const ServicesPage = () => (
   <>
     <Navbar />
-    <main className="pt-20">
+    <main className="pt-24 lg:pt-28">
       {/* Hero */}
       <section className="relative">
         <img src={portImg} alt="Port operations" loading="lazy" width={1280} height={720} className="w-full h-64 sm:h-80 object-cover" />

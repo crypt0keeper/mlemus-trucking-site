@@ -11,7 +11,7 @@ const posts: { embedUrl: string; title?: string }[] = [];
 const UpdatesPage = () => (
   <>
     <Navbar />
-    <main className="pt-20">
+    <main className="pt-24 lg:pt-28">
       <section className="bg-secondary section-padding">
         <div className="container-max">
           <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">Updates</p>
