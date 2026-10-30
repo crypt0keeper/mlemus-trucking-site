@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTABanner from "@/components/CTABanner";
+import TeamSection from "@/components/TeamSection";
 import { CheckCircle } from "lucide-react";
 import reeferImg from "@/assets/reefer-loading.jpg";
 
@@ -55,6 +56,8 @@ const AboutPage = () => (
           </div>
         </div>
       </section>
+
+      <TeamSection />
 
       <CTABanner />
     </main>
