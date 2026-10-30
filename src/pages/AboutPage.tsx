@@ -27,19 +27,19 @@ const AboutPage = () => (
             <h2 className="font-heading text-2xl sm:text-3xl font-bold uppercase text-foreground mb-6">Our Story</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Founded with the mission to provide honest, reliable freight services, M Lemus Trucking has grown through strong relationships with some of the biggest names in produce — including Taylor Farms, Chiquita, and Del Monte.
+                For over 20 years, M Lemus Trucking has provided honest, reliable freight service to growers, shippers, and brokers of every size. Along the way we've hauled for some of the biggest names in produce, including Mission Produce, Chiquita, Del Monte, Dole, and Lineage, both direct and through our broker partners.
               </p>
               <p>
                 We understand that in this industry, timing is everything. Our drivers are experienced, our equipment is maintained to the highest standards, and our communication is always responsive.
               </p>
               <p>
-                Whether it's a reefer load of fresh avocados heading north or a container pull from the port, we treat every shipment like our reputation depends on it — because it does.
+                Whether it's a reefer load of fresh produce or a container pull from the port, we treat every shipment like our reputation depends on it — because it does.
               </p>
             </div>
             <ul className="mt-8 space-y-3">
               {[
                 "TWIC Certified — Port Access Ready",
-                "Experience with Taylor Farms, Chiquita & Del Monte",
+                "Over 20 years in California trucking",
                 "California-focused operations for faster transit",
                 "Available for dedicated lane partnerships",
               ].map((item) => (

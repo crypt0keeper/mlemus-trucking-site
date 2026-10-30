@@ -26,8 +26,8 @@ const reasons = [
   },
   {
     icon: Handshake,
-    title: "Trusted by Industry Leaders",
-    desc: "Companies like Taylor Farms, Chiquita, and Del Monte rely on us. That trust is earned through years of consistent, quality service.",
+    title: "Proven With Major Shippers",
+    desc: "Over 20 years, we've hauled for shippers large and small, including Mission Produce, Chiquita, Del Monte, and Dole, both direct and through our broker partners.",
   },
   {
     icon: Phone,

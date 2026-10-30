@@ -8,7 +8,7 @@ const servicesData = [
   {
     icon: Container,
     title: "Container Drayage",
-    desc: "We provide reliable container drayage services from Port of Hueneme, Port of Los Angeles, and Port of Long Beach. Our TWIC-certified drivers ensure seamless port access, quick turnaround times, and efficient delivery to your warehouse or distribution center.",
+    desc: "We run container drayage out of the Port of Hueneme, and we've moved containers through the Ports of Los Angeles and Long Beach as well. Our TWIC-certified drivers get in and out of the port quickly and deliver to your warehouse, cold storage, or distribution center.",
   },
   {
     icon: Snowflake,
@@ -23,7 +23,7 @@ const servicesData = [
   {
     icon: Leaf,
     title: "Produce & Cold Chain Logistics",
-    desc: "With years of experience serving major growers and distributors like Taylor Farms, Chiquita, and Del Monte, we understand the urgency of produce logistics. We keep your cold chain intact from harvest to delivery across California.",
+    desc: "With over 20 years in produce trucking, and experience hauling for shippers like Mission Produce, Chiquita, Del Monte, and Dole, we understand the urgency of produce logistics. We keep your cold chain intact from harvest to delivery across California.",
   },
 ];
 

@@ -5,7 +5,7 @@ import { CheckCircle, ArrowRight } from "lucide-react";
 const highlights = [
   "Family-owned & operated",
   "Based in Oxnard, California",
-  "Trusted by Taylor Farms, Chiquita & Del Monte",
+  "Over 20 years serving growers, shippers & cold storage",
   "Dedicated lane partnerships available",
 ];
 
@@ -19,7 +19,7 @@ const AboutPreview = () => (
             California's Trusted <span className="text-primary">Freight Partner</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            M Lemus Trucking Inc. is a family-owned carrier based in Oxnard, California. With deep roots in produce logistics and port operations, we deliver consistent, reliable freight services across the state. Our team understands the urgency of time-sensitive freight and treats every load with care.
+            M Lemus Trucking Inc. is a family-owned carrier based in Oxnard, California, with over 20 years in trucking. With deep roots in produce logistics and port operations, we deliver consistent, reliable freight services across the state. Our team understands the urgency of time-sensitive freight and treats every load with care.
           </p>
           <ul className="space-y-3 mb-8">
             {highlights.map((h) => (
@@ -42,7 +42,7 @@ const AboutPreview = () => (
             { value: "CA", label: "Statewide Coverage" },
             { value: "53'", label: "Reefer Trailers" },
             { value: "TWIC", label: "Port Certified" },
-            { value: "24/7", label: "Responsive Service" },
+            { value: "20+", label: "Years in Trucking" },
           ].map((stat) => (
             <div
               key={stat.label}

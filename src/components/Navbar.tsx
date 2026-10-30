@@ -18,10 +18,14 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-md border-b border-foreground/10">
       <div className="container-max flex items-center justify-between h-16 sm:h-20 px-4 sm:px-6 lg:px-8">
-        <Link to="/" className="flex items-center gap-2">
-          <span className="font-heading text-xl sm:text-2xl font-bold text-primary-foreground tracking-wider uppercase">
-  M Lemus <span className="text-primary">Trucking Inc</span>
-</span>
+        <Link to="/" className="flex items-center gap-2" aria-label="M Lemus Trucking Inc. home">
+          <img
+            src="/logo.jpg"
+            alt="M Lemus Trucking Inc. — Port Hueneme, CA"
+            width={108}
+            height={70}
+            className="h-12 sm:h-14 w-auto rounded-md bg-white p-1"
+          />
         </Link>
 
         {/* Desktop */}
