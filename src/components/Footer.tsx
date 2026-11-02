@@ -79,6 +79,9 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-foreground/10 mt-10 pt-6 text-center text-xs text-metallic">
+        <p className="mb-3 leading-relaxed">
+          Hispanic American-owned small business · Self-certified SDB · Active in SAM.gov · UEI MR89UCS43FZ5 · CAGE 13BW0 · MC 774696 · USDOT 2267752
+        </p>
         © {new Date().getFullYear()} M Lemus Trucking Inc. All rights reserved.
       </div>
     </div>
