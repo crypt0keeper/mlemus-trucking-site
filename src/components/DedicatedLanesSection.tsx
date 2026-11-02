@@ -13,8 +13,8 @@ const DedicatedLanesSection = () => (
       </p>
 
       <div className="rounded-lg border border-border bg-secondary p-6 sm:p-8 space-y-3 text-sm sm:text-base text-metallic-light">
-        <p><span className="text-primary-foreground font-semibold">Reefer:</span> dedicated lanes under contract</p>
-        <p><span className="text-primary-foreground font-semibold">Containers:</span> dedicated lanes under contract</p>
+        <p><span className="text-primary-foreground font-semibold">Reefer:</span> dedicated lanes under contract for 53' reefer trailers, with temperature-controlled service for produce and other cold chain freight.</p>
+        <p><span className="text-primary-foreground font-semibold">Containers:</span> dedicated lanes under contract for container drayage, including refrigerated containers, with TWIC-certified drivers for port access.</p>
       </div>
 
       <div className="mt-8">

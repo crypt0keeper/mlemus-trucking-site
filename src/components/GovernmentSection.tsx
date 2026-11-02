@@ -12,7 +12,7 @@ const GovernmentSection = () => (
         Government &amp; <span className="text-primary">Prime Contractors</span>
       </h2>
       <p className="text-muted-foreground leading-relaxed mb-8">
-        M Lemus Trucking Inc. is a Hispanic American-owned small business and self-certified Small Disadvantaged Business (SDB), registered and active in SAM.gov. Based in Oxnard, we provide refrigerated and reefer container transportation throughout California.
+        M Lemus Trucking Inc. is a Hispanic American-owned small business and self-certified Small Disadvantaged Business (SDB), registered and active in SAM.gov. Based in Port Hueneme, we provide refrigerated and reefer container transportation throughout California.
       </p>
       <p className="text-muted-foreground leading-relaxed mb-8 -mt-4">
         We are available for government contracts, and our drivers hold TWIC credentials for secure port and facility access.
