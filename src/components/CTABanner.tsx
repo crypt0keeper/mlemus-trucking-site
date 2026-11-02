@@ -9,7 +9,7 @@ const CTABanner = () => (
         Available for Dedicated Lanes &amp; Consistent Freight Partnerships
       </h2>
       <p className="text-primary-foreground/80 max-w-2xl mx-auto mb-8 text-lg">
-        Let's build a reliable freight relationship. Whether you need daily reefer runs or weekly port drayage, we're ready.
+        We run dedicated lanes for both refrigerated (reefer) freight and containers. Whether you need daily reefer runs or weekly container drayage out of the Port of Hueneme, we can set up a consistent lane and schedule for you.
       </p>
       <Link to="/contact">
         <Button

@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import CTABanner from "@/components/CTABanner";
+import DedicatedLanesSection from "@/components/DedicatedLanesSection";
 import { Snowflake, Container, Truck, Leaf } from "lucide-react";
 import portImg from "@/assets/port-operations.jpg";
 
@@ -65,7 +65,7 @@ const ServicesPage = () => (
         </div>
       </section>
 
-      <CTABanner />
+      <DedicatedLanesSection />
     </main>
     <Footer />
   </>
