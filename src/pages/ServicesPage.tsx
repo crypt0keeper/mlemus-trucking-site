@@ -66,9 +66,9 @@ const ServicesPage = () => (
         </div>
       </section>
 
-      <GovernmentSection />
-
       <CTABanner />
+
+      <GovernmentSection />
     </main>
     <Footer />
   </>
