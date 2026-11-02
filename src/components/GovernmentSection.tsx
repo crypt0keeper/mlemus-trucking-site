@@ -29,21 +29,16 @@ const GovernmentSection = () => (
         </p>
       </div>
 
-      <div className="mt-8">
-        {CAPABILITY_STATEMENT_URL ? (
+      {CAPABILITY_STATEMENT_URL && (
+        <div className="mt-8">
           <a href={CAPABILITY_STATEMENT_URL} target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="font-heading uppercase tracking-wider">
               <FileDown className="w-5 h-5 mr-2" />
               Download Capability Statement (PDF)
             </Button>
           </a>
-        ) : (
-          <Button size="lg" disabled className="font-heading uppercase tracking-wider">
-            <FileDown className="w-5 h-5 mr-2" />
-            Download Capability Statement (PDF)
-          </Button>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   </section>
 );
