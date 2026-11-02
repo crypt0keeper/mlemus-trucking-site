@@ -9,12 +9,12 @@ const DedicatedLanesSection = () => (
         Available for <span className="text-primary">Dedicated Lanes</span> &amp; Consistent Freight Partnerships
       </h2>
       <p className="text-muted-foreground leading-relaxed mb-8">
-        We run dedicated lanes for both refrigerated (reefer) freight and containers. Whether you need daily reefer runs or weekly container drayage out of the Port of Hueneme, we can set up a consistent lane and schedule for you.
+        We offer dedicated lanes for both refrigerated (reefer) freight and containers. Sign a contract with us for the lane you need, and we’ll lock in the capacity, the schedule, and the rate, so your freight is covered every time.
       </p>
 
       <div className="rounded-lg border border-border bg-secondary p-6 sm:p-8 space-y-3 text-sm sm:text-base text-metallic-light">
-        <p><span className="text-primary-foreground font-semibold">Reefer:</span> dedicated lanes, daily runs</p>
-        <p><span className="text-primary-foreground font-semibold">Containers:</span> dedicated lanes, drayage out of the Port of Hueneme</p>
+        <p><span className="text-primary-foreground font-semibold">Reefer:</span> dedicated lanes under contract</p>
+        <p><span className="text-primary-foreground font-semibold">Containers:</span> dedicated lanes under contract</p>
       </div>
 
       <div className="mt-8">
