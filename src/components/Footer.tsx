@@ -78,7 +78,13 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="border-t border-foreground/10 mt-10 pt-6 text-center text-xs text-metallic">
+      <div className="border-t border-foreground/10 mt-10 pt-8 flex flex-wrap items-center justify-center gap-6 sm:gap-10">
+        <img src="/badges/hispanic_american_owned_small_business.svg" alt="Hispanic American-Owned Small Business" loading="lazy" width={160} height={160} className="w-36 h-36 sm:w-40 sm:h-40" />
+        <img src="/badges/self_certified_small_disadvantaged_business.svg" alt="Self-Certified Small Disadvantaged Business" loading="lazy" width={160} height={160} className="w-36 h-36 sm:w-40 sm:h-40" />
+        <img src="/badges/active_in_sam_gov.svg" alt="Active in SAM.gov" loading="lazy" width={160} height={160} className="w-36 h-36 sm:w-40 sm:h-40" />
+      </div>
+
+      <div className="mt-8 pt-6 border-t border-foreground/10 text-center text-xs text-metallic">
         <p className="mb-3 leading-relaxed">
           Hispanic American-owned small business · Self-certified SDB · Active in SAM.gov · UEI MR89UCS43FZ5 · CAGE 13BW0 · MC 774696 · USDOT 2267752
         </p>
